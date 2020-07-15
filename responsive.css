@@ -1,0 +1,51 @@
+
+/*Responsive design de todos los elementos a una resolucion maxima de 600 px*/
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(0, 0, 0);
+    }
+
+.my-name{
+  font-size: 17px;
+}
+.nav-main{
+      font-size: 15px;
+      display: grid;
+      grid-template-columns: 110px 80px 80px 80px;
+      border: red solid 2px;
+  }
+
+  .nav-main ul{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+}
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+
+.my-name{
+font-size: 15px;
+margin-right: 5px ;
+}
+.nav-main{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 110px 50px 50px 50px;
+    border: red solid 2px;
+  
+
+}
+
+.nav-main ul{
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  border: red solid 2px;
+}
+ul{
+  margin-right: 5%;
+}
+
+}
